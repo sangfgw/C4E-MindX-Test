@@ -20,3 +20,5 @@ module.exports = {
 ```
 - Next typing command: **npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch** (To let Tailwind CSS build output CSS file and use)
 - Open random HTML file from (src folder) bai1.html, bai2.html, bai3.html (with live server) to see the result
+
+**Note: You must install NodeJS to use npm**
