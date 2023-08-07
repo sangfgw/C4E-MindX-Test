@@ -8,6 +8,7 @@ This is MindX C4E Course Test Repository
 - Typing command: npm install (To Install Tailwind CSS Dependency)
 - From your root file (C4E-MINDX-TEST) add tailwind.config.js file and copy paste this code into that file and save:
   /** @type {import('tailwindcss').Config} */
+
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
