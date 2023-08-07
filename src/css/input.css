@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    font-family: Space Grotesk;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* Tag Selector */
+main {
+    background: #1C233D;
+    color: #ffffff;
+}
+
+.left-nav .title {
+    color: #E5E5E5;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.fa-magnifying-glass {
+    color: #E5E5E5;
+}
+
+.auth {
+    border-radius: 5px;
+    background: linear-gradient(55deg, rgba(191, 196, 238, 0.09) 15.52%, #C367E6 58.75%, rgba(190, 206, 239, 0.00) 100%);
+}
+
+.left-banner__container .left-banner__container__title {
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.left-banner__container .left-banner__container__title__desc {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.left-banner__container .left-banner__container__link {
+    border-radius: 5px;
+    background: linear-gradient(55deg, rgba(191, 196, 238, 0.09) 15.52%, #C367E6 58.75%, rgba(190, 206, 239, 0.00) 100%);
+    padding: 8px 40px;
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.statistics__container .statistics__container__title {
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.statistics__container .statistics__container__desc {
+    color: #E5E5E5;
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.right-banner .right-banner__card {
+    padding: 29px 21px 18px 26px;
+    border-radius: 10px;
+    background: #30384D;
+}
+
+.right-banner__card__img {
+    height: 340px;
+    min-width: 300px;
+}
+
+.nfts-desc .nfts-desc__title h3 {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nfts-desc__title-img-container .nfts-contributor {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.nfts-more-info .nfts-more-info__content .nfts-more-info__content__title {
+    color: #545C71;
+    font-family: DM Mono;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nfts-more-info__content .nfts-more-info__content__desc-container {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.nfts-more-info__content .nfts-more-info__content__desc-container .nfts-more-info__content__desc-container__desc {
+    color: #FFF;
+    font-family: DM Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cooperation-img-container {
+    transform: translateY(-25%);
+}
+
+.cooperation-img-container img {
+    width: 150px;
+    min-width: 100px;
+    display: flex;
+    justify-content: space-between;
+    object-fit: scale-down;
+}
+
+
+/* npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch */

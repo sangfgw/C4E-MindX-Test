@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Test Exercise 2</title>
+
+    <!-- Tailwind CSS -->
+    <!-- <link href="../dist/output.css" rel="stylesheet" > -->
+</head>
+<body>
+    <fieldset>
+        <legend><h1>Bộ chọn màu</h1></legend>
+        <form id="color_picker_form">
+            <div class="input-group">
+                <label for="color_picker_input">Color</label>
+                <input type="color" value="#ffffff" id="color_picker_input">
+            </div>
+            <div class="input-group">
+                <label for="hex_color_input">Hex:</label>
+                <input type="text" id="hex_color_input">
+                <input type="button" id="copy_hex_color" value="Copy">
+            </div>
+
+            <button type="submit" id="submit_form_btn">
+                Random Color
+            </button>
+        </form>
+
+        <div id="result"></div>
+    </fieldset>
+
+    <!-- External JS -->
+    <script type="application/javascript" src="lib/js/bai2.js"></script>
+</body>
+</html>

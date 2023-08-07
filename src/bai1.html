@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Test Exercise 1</title>
+
+    <!-- Tailwind CSS -->
+    <!-- <link href="../dist/output.css" rel="stylesheet" > -->
+</head>
+<body>
+    <fieldset>
+        <legend><h1>Nhập vào hai số a và b:</h1></legend>
+        <form id="square_number_form">
+            <div class="input-group">
+                <label for="square_number_input_a">a</label>
+                <input type="number" id="square_number_input_a" min="0">
+            </div>
+            <div class="input-group">
+                <label for="square_number_input_b">b</label>
+                <input type="number" id="square_number_input_b" min="0">
+            </div>
+
+            <button type="submit" id="submit_form_btn">
+                Hiển thị số chính phương
+            </button>
+        </form>
+
+        <div id="result"></div>
+    </fieldset>
+
+    <!-- External JS -->
+    <script type="application/javascript" src="lib/js/bai1.js"></script>
+</body>
+</html>

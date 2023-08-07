@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Test Exercise 3</title>
+
+    <!-- Tailwind CSS -->
+    <link href="../dist/output.css" rel="stylesheet" >
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1e4a5c6259.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="px-[72px]">
+        <header>
+            <nav class="flex gap-7 py-[15px]">
+                <div class="left-nav flex items-center">
+                    <div class="title">Sapphire</div>
+                    <div class="nav-menu ml-[38px]">
+                        <ul class="nav-menu__list flex font-normal text-[16px]">
+                            <li class="nav-menu__item font-bold">
+                                <a href="#">Explore</a>
+                            </li>
+                            <li class="nav-menu__item ml-[26px]">
+                                <a href="#">Marketplace</a>
+                            </li>
+                            <li class="nav-menu__item ml-[34px]">
+                                <a href="#">Artist</a>
+                            </li>
+                            <li class="nav-menu__item ml-[30px]">
+                                <a href="#">Collection</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-nav flex items-center ml-auto">
+                    <div class="search-bar">
+                        <form action="" class="search-bar__form relative border-[1px] rounded-[5px]">
+                            <input type="search" id="search_input" placeholder="Search" class="text-[12px] font-normal px-[8px] py-[9px] min-w-[242px] bg-transparent">
+                            <button type="submit" class="search-bar__form__submit-btn absolute top-0 right-[8px] translate-y-[55%] text-[12px]" id="search_submit_btn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="auth ml-[30px] px-[29px] py-[2px]">
+                        <a href="#" class="auth__sign-in text-[12px] font-bold whitespace-nowrap">Sign in</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="mt-[78px] flex gap-[89px]">
+            <div class="left-banner">
+                <div class="left-banner__container">
+                    <h1 class="left-banner__container__title max-w-[400px]">Discover, Sell & Collect 
+                        <span class="relative">
+                            Rare
+                            <svg xmlns="http://www.w3.org/2000/svg" width="125" height="17" viewBox="0 0 125 17" fill="none" class="absolute lg:top-1/2 bottom-0 left-0">
+                                <path d="M2 15.074C42.1038 -1.60798 85.593 -3.09225 123.5 15.074" stroke="#770777" stroke-width="3" stroke-linecap="round"/>
+                            </svg>
+                        </span> NFTs</h1>
+                    <h2 class="mt-3 left-banner__container__title__desc max-w-[300px]">Digital marketplace for crypto collections and non-fungible tokens (NFTs)</h2>
+                    <a href="#" class="left-banner__container__link mt-3">Discover Now</a>
+                </div>
+
+                <div class="statistics mt-[91px] flex">
+                    <div class="statistics__container">
+                        <div class="statistics__container__title">35k+</div>
+                        <div class="statistics__container__desc">Artworks</div>
+                    </div>                    
+                    <div class="statistics__container ml-[71px]">
+                        <div class="statistics__container__title">15k+</div>
+                        <div class="statistics__container__desc">Auctions</div>
+                    </div>
+                    <div class="statistics__container ml-[62px]">
+                        <div class="statistics__container__title">25k+</div>
+                        <div class="statistics__container__desc">Artists</div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-banner ml-auto">
+                <div class="right-banner__card">
+                    <img src="img/nft.png" alt="NFTs Image" class="right-banner__card__img">
+                    <div class="nfts-desc mt-3">
+                        <div class="nfts-desc__title flex justify-between items-center">
+                            <h3>Monkey Apes</h3>
+                            <div class="nfts-desc__title-img-container flex justify-end">
+                                <img src="img/contributors/contributor_1.png" alt="contributor 1" class="nfts-contributor nfts-contributor--1 relative left-12">
+                                <img src="img/contributors/contributor_2.png" alt="contributor 2" class="nfts-contributor nfts-contributor--2 relative left-9">
+                                <img src="img/contributors/contributor_3.png" alt="contributor 3" class="nfts-contributor nfts-contributor--3 relative left-6">
+                                <img src="img/contributors/contributor_4.png" alt="contributor 4" class="nfts-contributor nfts-contributor--4 relative left-3">
+                                <img src="img/contributors/contributor_5.png" alt="contributor 5" class="nfts-contributor nfts-contributor--5 relative">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nfts-more-info mt-3 flex justify-between">
+                        <div class="nfts-more-info__content">
+                            <h1 class="nfts-more-info__content__title">Current Bid</h1>
+                            <div class="nfts-more-info__content__desc-container">
+                                <img src="img/nfts_more_info/blockchain.png" alt="Nfts Block Chain" class="rounded-full" width="10px" height="10px">
+                                <h1 class="nfts-more-info__content__desc-container__desc">0.45 ETH</h1>
+                            </div>
+                        </div>
+                        <div class="nfts-more-info__content">
+                            <h1 class="nfts-more-info__content__title">Current Bid</h1>
+                            <div class="nfts-more-info__content__desc-container">
+                                <h1 class="nfts-more-info__content__desc-container__desc">900 Authors</h1>
+                            </div>
+                        </div>
+                        <div class="nfts-more-info__content">
+                            <h1 class="nfts-more-info__content__title text-right">Ending In</h1>
+                            <div class="nfts-more-info__content__desc-container">
+                                <img src="img/nfts_more_info/time.png" alt="Nfts Time" width="10px" height="10px">
+                                <h1 class="nfts-more-info__content__desc-container__desc">10h 43m 26s</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="mt-32">
+            <div class="cooperation-img-container flex justify-end gap-12 flex-wrap">
+                <img src="img/cooperation/coinbase.png" alt="coinbase">
+                <img src="img/cooperation/trezor.png" alt="TREZOR">
+                <img src="img/cooperation/exodus.png" alt="EXODUS">
+                <img src="img/cooperation/bitgo.png" alt="BitGo">
+            </div>
+        </footer>
+    </main>
+
+    <!-- External JS -->
+    <script type="application/javascript" src="lib/js/bai3.js"></script>
+</body>
+</html>
