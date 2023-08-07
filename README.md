@@ -2,7 +2,7 @@
 This is MindX C4E Course Test Repository
 
 ## How to use:
-- Clone Project with command: git clone https://github.com/sangfgw/C4E-MindX-Test.git
+- Clone Project with command: **git clone https://github.com/sangfgw/C4E-MindX-Test.git**
 - Open project folder (C4E-MINDX-TEST) with VSCode
 - Open VSCode Terminal with command: **Ctrl + Shift + `** (On Windows)
 - Typing command: **npm install** (To Install Tailwind CSS Dependency)
